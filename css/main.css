@@ -75,6 +75,80 @@ h1, h2, h3, label {
   transition: ease-in 1s;
 }
 
+@keyframes b-move {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(2%);
+  }
+}
+
+@keyframes r-move {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(1%);
+  }
+}
+
+@keyframes a-move {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(2%);
+  }
+}
+
+@keyframes i-move {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(1%);
+  }
+}
+
+@keyframes n-move {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(2%);
+  }
+}
+
+.b {
+  animation: b-move .75s infinite linear alternate;
+  background-color: #ebb5d4;
+  animation-delay: 500ms;
+}
+
+.r {
+  animation: r-move .75s infinite linear alternate;
+  background-color: #ebb5d4;
+  animation-delay: 300ms;
+}
+
+.a {
+  animation: a-move .75s infinite linear alternate;
+  background-color: #ebb5d4;
+}
+
+.i {
+  animation: i-move .75s infinite linear alternate;
+  background-color: #ebb5d4;
+  animation-delay: 300ms;
+}
+
+.n {
+  animation: n-move .75s infinite linear alternate;
+  background-color: #ebb5d4;
+  animation-delay: 500ms;
+}
+
 .image1 {
   opacity: 0;
   transition: ease-in 200ms;
