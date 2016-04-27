@@ -71,18 +71,53 @@ h1, h2, h3, label {
 
 .brain-box {
   position: relative;
+  opacity: 0;
+  transition: ease-in 200ms;
+}
 
+.js-brain-animate {
+  opacity: 1;
+  animation: brain-jiggle 250ms linear;
+}
+
+@keyframes brain-jiggle {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#right-mag.right-mag-move {
+  transform: translate(0,0);
+  animation: fade-in 1s linear;
 }
 
 #right-mag {
-  position: absolute;
-  top: 10rem;
-
+  transform: translate(300px, 0);
   transition: all 2s ease;
 }
 
-#left-mag .left-mag-move {
+#left-mag.left-mag-move {
   transform: translate(0,0);
+  animation: fade-in 1s linear;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+  }
 }
 
 #left-mag {
