@@ -81,15 +81,12 @@ h1, h2, h3, label {
   transition: all 2s ease;
 }
 
-.left-mag-move {
-  right: 100px;
+#left-mag.left-mag-move {
+  transform: translate(0,0);
 }
 
 #left-mag {
-  position: absolute;
-  top: 10rem;
-  left: -20rem;
-
+  transform: translate(-300px, 0);
   transition: all 2s ease;
 }
 
