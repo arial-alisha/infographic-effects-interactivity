@@ -72,7 +72,7 @@ h1, h2, h3, label {
 .brain-box {
   position: relative;
   opacity: 0;
-  transition: ease-in 200ms;
+  transition: ease-in 1s;
 }
 
 .image1 {
@@ -101,6 +101,36 @@ h1, h2, h3, label {
 }
 
 .image6 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image7 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image8 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image9 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image10 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image11 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image12 {
   opacity: 0;
   transition: ease-in 200ms;
 }
@@ -210,10 +240,12 @@ label {
 
 .left-traits ul li label {
   background-color: #00a88a;
+  transition: ease-in 200ms;
 }
 
 .right-traits ul li label {
   background-color: #9863a9;
+  transition: ease-in 200ms;
 }
 
 .left-traits {
