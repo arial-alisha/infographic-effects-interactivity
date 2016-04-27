@@ -75,6 +75,36 @@ h1, h2, h3, label {
   transition: ease-in 200ms;
 }
 
+.image1 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image2 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image3 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image4 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image5 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
+.image6 {
+  opacity: 0;
+  transition: ease-in 200ms;
+}
+
 .js-brain-animate {
   opacity: 1;
   animation: brain-jiggle 250ms linear;
@@ -116,7 +146,7 @@ h1, h2, h3, label {
   }
 
   100% {
-    opacity: 100;
+    opacity: 1;
   }
 }
 
@@ -202,6 +232,14 @@ input {
   display: inline-block;
 
   width: 100%;
+}
+
+.left-traits li label:hover {
+  background-color: #61c4b2;
+}
+
+.right-traits li label:hover {
+  background-color: #b998c7;
 }
 
 @media only screen and (min-width: 20em) {
