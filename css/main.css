@@ -506,7 +506,7 @@ nav .current {
 nav {
   display: inline-block;
   vertical-align: middle;
-  padding: .5rem 0;
+  padding: .5rem 3em;
   background-color: #ebb5d4;
   text-align: center;
 }
