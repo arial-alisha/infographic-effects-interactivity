@@ -479,3 +479,34 @@ footer svg {
   margin: auto;
   padding: 1rem;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em 3em;
+
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav .current {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .5rem 0;
+  background-color: #ebb5d4;
+  text-align: center;
+}

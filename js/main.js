@@ -17,6 +17,8 @@ var $image10 = $('.image10');
 var $image11 = $('.image11');
 var $image12 = $('.image12');
 
+$('nav').localScroll();
+
 $body.on('click', '#right-hem', function () {
   $leftmag.toggleClass ('left-mag-move');
 });
