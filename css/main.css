@@ -487,10 +487,11 @@ nav ul {
 
 nav li {
   text-align: left;
+  display: inline;
 }
 
 nav a {
-  display: block;
+  display: inline block;
   padding: .5em 3em;
 
   color: white;
@@ -503,7 +504,6 @@ nav .current {
   color: white;
 }
 
-97c0e6;
 nav {
   display: inline-block;
   vertical-align: middle;
