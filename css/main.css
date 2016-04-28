@@ -493,20 +493,21 @@ nav a {
   display: block;
   padding: .5em 3em;
 
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
 nav a:hover,
 nav .current {
-  background-color: white;
-  color: black;
+  background-color: #ebb5d4;
+  color: white;
 }
 
+97c0e6;
 nav {
   display: inline-block;
   vertical-align: middle;
   padding: .5rem 0;
-  background-color: #ebb5d4;
+  background-color: #97c0e6;
   text-align: center;
 }
