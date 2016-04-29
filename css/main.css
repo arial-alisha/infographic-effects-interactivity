@@ -75,6 +75,61 @@ h1, h2, h3, label {
   transition: ease-in 1s;
 }
 
+@-webkit-keyframes b-move {
+
+  0% {
+    -webkit-transform: translateY(-5%);
+  }
+
+  100% {
+    -webkit-transform: translateY(2%);
+  }
+}
+
+@-webkit-keyframes r-move {
+
+  0% {
+    -webkit-transform: translateY(-5%);
+  }
+
+  100% {
+    -webkit-transform: translateY(1%);
+  }
+}
+
+@-webkit-keyframes a-move {
+
+  0% {
+    -webkit-transform: translateY(-5%);
+  }
+
+  100% {
+    -webkit-transform: translateY(2%);
+  }
+}
+
+@-webkit-keyframes i-move {
+
+  0% {
+    -webkit-transform: translateY(-5%);
+  }
+
+  100% {
+    -webkit-transform: translateY(1%);
+  }
+}
+
+@-webkit-keyframes n-move {
+
+  0% {
+    -webkit-transform: translateY(-5%);
+  }
+
+  100% {
+    -webkit-transform: translateY(2%);
+  }
+}
+
 @keyframes b-move {
 
   0% {
@@ -120,61 +175,6 @@ h1, h2, h3, label {
 }
 
 @keyframes n-move {
-
-  0% {
-    transform: translateY(-5%);
-  }
-
-  100% {
-    transform: translateY(2%);
-  }
-}
-
-@-webkit-keyframes b-move {
-
-  0% {
-    transform: translateY(-5%);
-  }
-
-  100% {
-    transform: translateY(2%);
-  }
-}
-
-@-webkit-keyframes r-move {
-
-  0% {
-    transform: translateY(-5%);
-  }
-
-  100% {
-    transform: translateY(1%);
-  }
-}
-
-@-webkit-keyframes a-move {
-
-  0% {
-    transform: translateY(-5%);
-  }
-
-  100% {
-    transform: translateY(2%);
-  }
-}
-
-@-webkit-keyframes i-move {
-
-  0% {
-    transform: translateY(-5%);
-  }
-
-  100% {
-    transform: translateY(1%);
-  }
-}
-
-@-webkit-keyframes n-move {
 
   0% {
     transform: translateY(-5%);
@@ -291,19 +291,19 @@ h1, h2, h3, label {
 @-webkit-keyframes brain-jiggle {
 
   0% {
-    transform: rotate(0);
+    -webkit-transform: rotate(0);
   }
 
   33% {
-    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
   }
 
   66% {
-    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
   }
 
   100% {
-    transform: rotate(0);
+    -webkit-transform: rotate(0);
   }
 }
 
@@ -327,17 +327,20 @@ h1, h2, h3, label {
 }
 
 #right-mag.right-mag-move {
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
   animation: fade-in 1s linear;
   -webkit-animation: fade-in 1s linear;
 }
 
 #right-mag {
+  -webkit-transform: translate(300px, 0);
   transform: translate(300px, 0);
   transition: all 2s ease;
 }
 
 #left-mag.left-mag-move {
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
   -webkit-animation: fade-in 1s linear;
   animation: fade-in 1s linear;
@@ -366,6 +369,7 @@ h1, h2, h3, label {
 }
 
 #left-mag {
+  -webkit-transform: translate(-300px, 0);
   transform: translate(-300px, 0);
   transition: all 2s ease;
 }
@@ -375,6 +379,7 @@ h1, h2, h3, label {
 }
 
 .left-hem:hover .left-mag {
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
